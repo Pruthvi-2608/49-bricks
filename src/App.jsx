@@ -94,7 +94,7 @@ const testimonials = [
   },
 ];
 
-const GOOGLE_SCRIPT_URL = import.meta.env.VITE_GOOGLE_SCRIPT_URL;
+const GOOGLE_SCRIPT_URL = import.meta.env.VITE_GOOGLE_SCRIPT_URL || 'https://script.google.com/macros/s/AKfycbwSBeVZSlXNYTya88P3Wm5eQakpckF-CTiYOpMQiSZGOv4oymr14UmGt5TSp1smHUBJ/exec';
 
 function BrickDivider() {
   return (
